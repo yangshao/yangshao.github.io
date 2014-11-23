@@ -9,14 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="Example 1 vegetables brocolli
-chard
-Test bullet Example 2 one
-two
-three
-Test bullet
-段内插入LaTeX代码是这样的：$\exp(-\frac{x2}{2})$，试试看看吧
-这是另一个普通段落。 ">
+  <meta name="description" content="Example 1 vegetables brocolli chard Test bullet Example 2 one two three Test bullet If $a^2=b$ and $b=2$, then the solution must be
+either $a=+\sqrt{ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,35 +32,21 @@ Test bullet
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <!-- mathjax config similar to math.stackexchange -->
 
+<!-- mathjax config similar to math.stackexchange -->
 <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
 </script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
   
 
 </head>
@@ -124,31 +104,29 @@ Test bullet
   </header>
 
 
-  <div class="entry-content"><h2>Example 1</h2>
+  <div class="entry-content"><h2 id="example-1">Example 1</h2>
 
 <ul>
-<li>vegetables
-
-<ul>
-<li>brocolli</li>
-<li>chard</li>
-<li><a href="/pagetestbullet.html">Test bullet</a></li>
+  <li>vegetables
+    <ul>
+      <li>brocolli</li>
+      <li>chard</li>
+      <li><a href="/pagetestbullet.html">Test bullet</a></li>
+    </ul>
+  </li>
 </ul>
-</li>
-</ul>
 
-
-<h2>Example 2</h2>
+<h2 id="example-2">Example 2</h2>
 
 <ol>
-<li>one</li>
-<li>two</li>
-<li>three</li>
-<li><a href="/pagetestbullet.html">Test bullet</a>
-段内插入LaTeX代码是这样的：$\exp(-\frac{x<sup>2</sup>}{2})$，试试看看吧
-这是另一个普通段落。</li>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+  <li><a href="/pagetestbullet.html">Test bullet</a></li>
 </ol>
 
+<p>If $a^2=b$ and $b=2$, then the solution must be
+either $a=+\sqrt{2}$ or $a=-\sqrt{2}$.</p>
 </div>
   
   

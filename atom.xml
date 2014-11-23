@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://yangshao.github.io/atom.xml" rel="self"/>
   <link href="http://yangshao.github.io/"/>
-  <updated>2014-11-22T19:17:37-05:00</updated>
+  <updated>2014-11-22T19:29:56-05:00</updated>
   <id>http://yangshao.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,31 +18,29 @@
     <link href="http://yangshao.github.io/blog/2014/11/22/test/"/>
     <updated>2014-11-22T18:07:02-05:00</updated>
     <id>http://yangshao.github.io/blog/2014/11/22/test</id>
-    <content type="html"><![CDATA[<h2>Example 1</h2>
+    <content type="html"><![CDATA[<h2 id="example-1">Example 1</h2>
 
 <ul>
-<li>vegetables
-
-<ul>
-<li>brocolli</li>
-<li>chard</li>
-<li><a href="http://yangshao.github.io/pagetestbullet.html">Test bullet</a></li>
+  <li>vegetables
+    <ul>
+      <li>brocolli</li>
+      <li>chard</li>
+      <li><a href="http://yangshao.github.io/pagetestbullet.html">Test bullet</a></li>
+    </ul>
+  </li>
 </ul>
-</li>
-</ul>
 
-
-<h2>Example 2</h2>
+<h2 id="example-2">Example 2</h2>
 
 <ol>
-<li>one</li>
-<li>two</li>
-<li>three</li>
-<li><a href="http://yangshao.github.io/pagetestbullet.html">Test bullet</a>
-段内插入LaTeX代码是这样的：$\exp(-\frac{x<sup>2</sup>}{2})$，试试看看吧
-这是另一个普通段落。</li>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+  <li><a href="http://yangshao.github.io/pagetestbullet.html">Test bullet</a></li>
 </ol>
 
+<p>If $a^2=b$ and $b=2$, then the solution must be
+either $a=+\sqrt{2}$ or $a=-\sqrt{2}$.</p>
 ]]></content>
   </entry>
   
