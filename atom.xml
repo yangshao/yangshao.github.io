@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://yangshao.github.io/atom.xml" rel="self"/>
   <link href="http://yangshao.github.io/"/>
-  <updated>2014-11-22T19:02:36-05:00</updated>
+  <updated>2014-11-22T19:14:24-05:00</updated>
   <id>http://yangshao.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,17 @@
     <link href="http://yangshao.github.io/blog/2014/11/22/test/"/>
     <updated>2014-11-22T18:07:02-05:00</updated>
     <id>http://yangshao.github.io/blog/2014/11/22/test</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>这是一个普通段落。</p>
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+
+<p>段内插入LaTeX代码是这样的：$\exp(-\frac{x<sup>2</sup>}{2})$，试试看看吧
+这是另一个普通段落。</p>
 ]]></content>
   </entry>
   
